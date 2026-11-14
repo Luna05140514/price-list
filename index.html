@@ -1,3 +1,4 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}</style></head><body>
 <title>鏡片價目表</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -424,6 +425,14 @@ td.pfav{cursor:pointer;position:relative}td.pfav .pst{position:absolute;top:2px;
 .asb{display:flex;flex-direction:column;align-items:center;gap:3px}.asw{font:900 min(26px,6.4vw)/1 "Arial Black",Arial,sans-serif;color:#111;letter-spacing:-.5px;transform:scaleY(1.15)}.asw sup{font:700 9px Arial,sans-serif;vertical-align:top;margin-left:1px}.asw b{color:#ec5a24}.asj{font-size:10px;color:#2d5c43;letter-spacing:1px}.brandgrid button.nwb[data-b="ASLI"],.brandgrid button.nwb[data-b="ASLI"]:hover,.brandgrid button.nwb[data-b="ASLI"]:focus-visible{background:#9fe3bb;color:#111}.brandgrid button.nwb[data-b="ASLI"] .bc{color:#2d5c43}
 .brandgrid button.nwb[data-b="TOKAI"],.brandgrid button.nwb[data-b="TOKAI"]:hover,.brandgrid button.nwb[data-b="TOKAI"]:focus-visible{background:#ecedef;color:#111}.tkb{display:flex;flex-direction:column;align-items:center;gap:2px}.tkl{width:38px;height:38px}.tkw{font:900 italic 22px/1 "Arial Black",Arial,sans-serif;letter-spacing:.5px;color:#111}.tkj{font-size:10px;color:#444;letter-spacing:2px}.brandgrid button.nwb[data-b="TOKAI"] .bc{color:#555}
 .brandgrid button.nwb[data-b="PENTAX"],.brandgrid button.nwb[data-b="PENTAX"]:hover,.brandgrid button.nwb[data-b="PENTAX"]:focus-visible{background:linear-gradient(160deg,#f3925a,#e4552c 70%);justify-content:flex-end;gap:6px;padding:0 0 8px;overflow:hidden}.ptxb{display:flex;flex-direction:column;align-items:center;width:100%;background:#f7f4ef;padding:7px 4px 6px;border-bottom:5px solid #dc4a2c}.ptxl{color:#d8312b;font:900 italic min(28px,6.5vw)/1 "Arial Black",Arial,sans-serif;letter-spacing:.01em}.ptxs{color:#d8312b;font-size:min(10px,2.6vw);letter-spacing:.05em;margin-top:4px;white-space:nowrap}.brandgrid button.nwb[data-b="PENTAX"] .bc{color:#fff}
+.brandgrid{grid-auto-rows:auto;gap:10px}
+.brandgrid button:not(.allb){height:112px}
+.brandgrid button:not(.allb)>*{zoom:.76}
+.brandgrid button.allb{height:190px;gap:12px;border-radius:16px}
+.allb .alt{font-size:min(36px,8.6vw)}
+.allb .all4{gap:8px}
+.allb .all4 i{font-size:min(16px,3.8vw);padding:4px 9px;border-radius:5px}
+.allb .alc{font-size:min(15px,3.6vw)}
 </style>
 
 <div class="wrap" id="home">
@@ -1417,3 +1426,5 @@ let h='<div class="vh vh0"></div><div class="vh">ADD：+1.50</div><div class="vh
 D.forEach(([a,b,v])=>{h+=`<div class="vn">${a}<br>${b}</div>`+v.map(x=>`<img class="vfi" src="${VFI[k++]}" alt="遠${x[0]}m 中${x[1]}cm 近${x[2]}cm">`).join("")});
 const el=document.getElementById("vfg");if(el)el.innerHTML=h;})();
 </script>
+
+</body></html>
